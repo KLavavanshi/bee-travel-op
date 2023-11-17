@@ -18,7 +18,7 @@ spec:
       maxSurge: 25%
     resources:
       limits:
-        cpu: 200m
+        cpu: 100m
         memory: 256Mi
       requests:
         cpu: 200m
@@ -52,7 +52,7 @@ spec:
               value: http
           resources:
             limits:
-              cpu: 200m
+              cpu: 100m
               memory: 256Mi
             requests:
               cpu: 200m
